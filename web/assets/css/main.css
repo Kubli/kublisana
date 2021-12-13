@@ -1,0 +1,294 @@
+html {
+	 scroll-behavior: smooth;
+}
+
+.header {
+    height: 100vh;
+    width:100%;
+/*    background-image: url('../media/placeholder/city.jpg');
+    filter: contrast(1);*/
+
+
+
+
+    /*background-image: url('../media/placeholder/Taggenberg.jpg');*/
+
+
+
+    /*background-image: url('../media/placeholder/bottom_up.jpeg');
+    filter: contrast(1.4);
+     */
+
+    background-size: cover;
+
+}
+
+
+
+.anchor {
+	display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
+
+.label img{
+	max-height: 130px;
+	max-width: 100%
+}
+
+#entry-image {
+	position: relative;
+}
+
+#entry-image img {
+    max-width: 100%;
+}
+
+.header .carousel-inner {
+    height: 100vh;
+}
+
+.header .carousel-item {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header .carousel-item img{
+
+    position: absolute;
+    left: 50%;
+    margin-left: -1280px;
+    display: block;
+    width: 2560px;
+    transform: translate(0,-200px);
+}
+
+
+.header .carousel-item:nth-child(1) {
+    filter: contrast(1);
+}
+
+.header .carousel-item:nth-child(2) {
+    filter: contrast(1.2);
+}
+.header .carousel-item:nth-child(3) {
+    filter: contrast(1.4);
+}
+
+.header .carousel-item:nth-child(4) {
+    filter: contrast(1.2);
+}
+.header .carousel-item:nth-child(5) {
+    filter: contrast(1.2);
+}
+.header .carousel-item:nth-child(5) img{
+    transform: translate(0,-400px);
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.1);
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+
+
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+
+    top: 0;
+    position: absolute;
+    background: transparent;
+    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
+    margin: 0;
+}
+
+.hero {
+    color: white;
+    font-family: "Times New Roman";
+    position: absolute;
+    top: calc(50% - 120px);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    /*text-shadow: 0 0 5px #000000;*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    line-height: 1.2;
+    text-transform: none;
+    font-weight: 400;
+}
+
+h1 p {
+    letter-spacing: 5px;
+}
+
+h1 span {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-top: 1px solid white;
+    letter-spacing: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+nav {
+    background: transparent;
+    font-family: Roboto;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid rgba(119, 136, 153, 0.27);
+}
+
+nav > .container-fluid {
+    max-width: 1170px;
+
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+
+.navbar-brand {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Times New Roman;
+}
+
+#scroll svg{
+    height: 50px;
+    fill: white;
+}
+
+#scroll svg:hover {
+    fill: cornflowerblue;
+}
+
+#scroll {
+	position: absolute;
+    left: calc(50% - 25px);
+    bottom: 50px;
+	
+}
+
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.navigation-wrap {
+    with: 100%;
+    z-index: 2;
+    background: white;
+}
+
+#content {
+    margin-top: 50px;
+    max-width: 1170px;
+}
+
+article {
+    min-height: 200px;
+}
+
+article:last-child {
+    min-height: auto;
+
+}
+
+
+
+#gallery-hof .carousel-item img {
+	max-width: 100%;
+}
+
+#contact span {
+    display: block;
+}
+
+#form {
+	min-height: 380px;
+}
+
+#form #honig {
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+
+#form input, #form label {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 780px){
+    h1 {
+        font-size: 40px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    }
+    .overlay {
+        background-color: transparent;
+        height: auto;
+    }
+    .header {
+        height: auto;
+    }
+	
+	.hero {
+		top: 50%;
+	}
+	
+	.label:last-child {
+		margin-top: 50px;
+	}
+
+}
+
+@media (max-width: 570px) {
+    h1 {
+        font-size: 30px;
+    }
+	
+
+
+
+}
+
+@media (max-width: 460px) {
+	
+
+	
+    h1 {
+        font-size: 14px;
+    }
+
+
+}
