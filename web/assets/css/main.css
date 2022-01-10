@@ -130,7 +130,6 @@ h1 p {
 
 h1 span {
     text-transform: uppercase;
-    font-weight: 700;
     border-top: 1px solid white;
     letter-spacing: 20px;
 }
@@ -168,13 +167,18 @@ nav > .container-fluid {
 }
 
 
+.btn-primary{
+	background-color:	#0e0087;
+	border-color: #0e0087;
+}
+
 .navbar-brand {
-    color: black;
+    color: #0e0087;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: normal;
     font-style: italic;
     font-size: 30px;
-    font-family: Times New Roman;
+    font-family: Verdana;
 }
 
 #scroll svg{
